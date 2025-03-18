@@ -21,6 +21,12 @@
    margin: auto;
 }
 
+#back{
+  background-color: transparent;
+  color: aliceblue;
+  border: none;
+}
+
 .title {
    font-size: 42px;
    color: white;

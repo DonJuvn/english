@@ -25,7 +25,7 @@ import { Link } from "react-router-dom";const HomePage = () => {
          {/* {data.map((unit) => ( */}
          {/* <Link to={`/unit/${unit.id}`}>{unit.name}</Link> */}
          <Link className="link-button" to={`/unit/1`}>
-            Unit 1
+            Introduction
          </Link>
          <Link className="link-button" to={`/unit/2`}>
             Unit 2
