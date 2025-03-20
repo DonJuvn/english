@@ -59,6 +59,160 @@ const Unit2 = () => {
                was huge, filling the room.
             </p>
          </div>
+         <div className="image">
+            <img
+               src="https://avatars.mds.yandex.net/i?id=292d438e9890c5809478c55d640ae3ee_l-4328551-images-thumbs&n=13https://i.pinimg.com/originals/97/ba/ba/97baba3ccbfeebaaf2e37ff9f2c6b240.jpg"
+               alt=""
+            />
+            <p id="desc">
+               Figure 1.1 The Colossus machine at Bletchley Park, UK, was one of
+               the first electronic computers. It was invented in the 1940s.
+               Because valves (large electronic components) were used, Colossus
+               was huge, filling the room.
+            </p>
+         </div>
+         <h1 id="subtitle">Hardware and software</h1>
+         <p>
+            Hardware refers to the physical components of a computer system that
+            allow it to function and perform various tasks. It includes devices
+            such as processors, memory modules, storage drives, and peripheral
+            devices. The processor, also known as the CPU, acts as the brain of
+            the computer, executing instructions and managing data processing.
+            Memory, including RAM and ROM, temporarily or permanently stores
+            data needed for operations. Storage devices, such as hard drives and
+            solid-state drives, provide space for long-term data storage. Other
+            essential hardware components include the motherboard, which
+            connects all parts of the system, the power supply unit, which
+            delivers electrical power, and the graphics processing unit, which
+            enhances visual performance for tasks like gaming and video
+            rendering. Hardware components work together to support the
+            execution of software and enable users to interact with the system
+            effectively. Software refers to the set of instructions and programs
+            that tell a computer how to perform specific tasks. It is divided
+            into system software and application software. System software
+            includes operating systems that manage hardware resources and
+            provide a user interface, as well as utility programs that help
+            maintain and optimize system performance. Application software
+            consists of programs designed for end users, such as word
+            processors, web browsers, media players, and development tools.
+            Software enables users to perform various functions, from basic
+            computing tasks to complex programming and multimedia processing. It
+            operates in conjunction with hardware, allowing users to interact
+            with digital devices and complete specific activities efficiently.
+         </p>
+         <h2>Main Types of Hardware</h2>
+         <ul>
+            <li>
+               <strong>Input Devices:</strong> Allow users to enter data into a
+               computer system, such as keyboards, mice, and microphones.
+            </li>
+            <li>
+               <strong>Output Devices:</strong> Display or produce results from
+               processed data, including monitors, printers, and speakers.
+            </li>
+            <li>
+               <strong>Processing Unit:</strong> The CPU executes instructions
+               and manages tasks within a computer system.
+            </li>
+            <li>
+               <strong>Memory:</strong> Includes RAM for temporary storage and
+               ROM for essential system instructions.
+            </li>
+            <li>
+               <strong>Storage Devices:</strong> HDDs offer large-capacity
+               storage at slower speeds, while SSDs provide faster performance
+               using flash memory.
+            </li>
+            <li>
+               <strong>Motherboard:</strong> The main circuit board that
+               connects all components and enables communication between them.
+            </li>
+            <li>
+               <strong>Power Supply Unit (PSU):</strong> Converts electricity
+               into usable power for internal components.
+            </li>
+            <li>
+               <strong>Graphics Processing Unit (GPU):</strong> Handles
+               rendering and visual computations for gaming, video editing, and
+               other graphical tasks.
+            </li>
+         </ul>
+
+         <h2>Main Types of Software</h2>
+         <ul>
+            <li>
+               <strong>System Software:</strong> Manages hardware resources and
+               system functionality.
+               <ul>
+                  <li>
+                     <strong>Operating Systems:</strong> Windows, macOS, Linux.
+                  </li>
+                  <li>
+                     <strong>Utility Programs:</strong> Antivirus software, disk
+                     cleanup tools.
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <strong>Application Software:</strong> Designed for user tasks.
+               <ul>
+                  <li>
+                     <strong>Productivity Tools:</strong> Word processors,
+                     spreadsheets.
+                  </li>
+                  <li>
+                     <strong>Multimedia Programs:</strong> Image and video
+                     editing software.
+                  </li>
+                  <li>
+                     <strong>Web Browsers:</strong> Chrome, Firefox, Safari.
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <strong>Programming Software:</strong> Provides tools for
+               developing and writing code.
+               <ul>
+                  <li>
+                     <strong>Compilers and Interpreters:</strong> Convert
+                     programming languages into machine-readable instructions.
+                  </li>
+                  <li>
+                     <strong>
+                        IDEs (Integrated Development Environments):
+                     </strong>{" "}
+                     Provide a workspace for coding, debugging, and testing
+                     applications.
+                  </li>
+               </ul>
+            </li>
+         </ul>
+         <ul>
+            <li>Web page editors are used to create web pages.</li>
+            <li>
+               Audio production and editing programs are a common way of
+               producing high-quality music at owl cost.
+            </li>
+            <li>
+               In contrast to general-purpose applications, specialist,
+               custom-made software can only be used in one main component of a
+               general-purpose computer OS .{" "}
+            </li>
+            <li>
+               A computer is a device, or a group of devices, designed to do
+               something, such as process information or control a particular
+               situation.{" "}
+            </li>
+            <li>
+               Examples include applications for payroll, accounts, stock
+               control, route planning or a system. The hardware of most
+               computers can be divided into several types of device
+            </li>
+         </ul>
+         <h1 id="subtitle">SAQ</h1>
+         <ol>
+          <li>ljf</li>
+         </ol>
       </div>
    );
 };
