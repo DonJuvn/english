@@ -15,6 +15,10 @@ import unit5 from "./unit5";
 import "./App.css";
 import Header from "./Header";
 import Footer from "./Footer";
+import Unit2 from "./unit2";
+import Unit3 from "./unit3";
+import Unit4 from "./unit4";
+import Unit5 from "./unit5";
 
 function App() {
    return (
@@ -26,10 +30,10 @@ function App() {
                   <Route path="/" element={<HomePage />} />
                   {/* <Route path="/unit/:id" element={<UnitPage />} /> */}
                   <Route path="/unit/1" element={<Unit1 />} />
-                  <Route path="/unit/2" element={<unit2 />} />
-                  <Route path="/unit/3" element={<unit3 />} />
-                  <Route path="/unit/4" element={<unit4 />} />
-                  <Route path="/unit/5" element={<unit5 />} />
+                  <Route path="/unit/2" element={<Unit2 />} />
+                  <Route path="/unit/3" element={<Unit3 />} />
+                  <Route path="/unit/4" element={<Unit4 />} />
+                  <Route path="/unit/5" element={<Unit5 />} />
                   <Route path="/unit/6" element={<unit6 />} />
                   <Route path="/unit/7" element={<unit7 />} />
                   <Route path="/unit/8" element={<unit8 />} />

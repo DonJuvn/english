@@ -28,34 +28,34 @@ import { Link } from "react-router-dom";const HomePage = () => {
             Introduction
          </Link>
          <Link className="link-button" to={`/unit/2`}>
-            Unit 2
+            Module 1
          </Link>
          <Link className="link-button" to={`/unit/3`}>
-            Unit 3
+            Module 2
          </Link>
          <Link className="link-button" to={`/unit/4`}>
-            Unit 4
+            Module 3
          </Link>
          <Link className="link-button" to={`/unit/5`}>
-            Unit 5
+            Module 4
          </Link>
          <Link className="link-button" to={`/unit/6`}>
-            Unit 6
+            Module 5
          </Link>
          <Link className="link-button" to={`/unit/7`}>
-            Unit 7
+            Module 6
          </Link>
          <Link className="link-button" to={`/unit/8`}>
-            Unit 7.1
+            Module 7
          </Link>
          <Link className="link-button" to={`/unit/9`}>
-            Unit 7.2
+            Module 7.1
          </Link>
          <Link className="link-button" to={`/unit/10`}>
-            Unit 8
+            Module 7.2
          </Link>
          <Link className="link-button" to={`/unit/11`}>
-            Unit 9
+            Module 8
          </Link>
          {/* ))} */}
 
