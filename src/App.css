@@ -31,6 +31,7 @@ h5,
 h6,
 ol {
    color: #1c1c1e;
+   background-color: transparent;
 }
 
 #back {
@@ -45,14 +46,40 @@ img {
 .title {
    background-color: transparent;
 }
-#title {
+
+#subtitle,
+.title {
+   color: #3f3f8f;
+}
+#smartphone {
+   margin: auto;
+   width: 100%;
+   display: flex; 
+   object-fit: cover;
+   height: 750px;
+   border-radius: 30px;
+   background-color: #fff;
+}
+#desc{
+   display: flex;
+   margin: 15px auto;
+   width: 50%;
+   background-color: #fff;
+}
+.image{
+   background-color: #fff;
+}
+#smartphone-img{
+   margin: auto;
+}
+#nav .title {
    font-size: 42px;
    color: #1c1c1e;
    margin: 10px 0;
    background-color: transparent;
    font-weight: 400;
 }
-.subtitle {
+#nav .subtitle {
    font-size: 22px;
    color: #1c1c1e;
    font-weight: 400;
@@ -71,6 +98,9 @@ img {
    color: #3f3f8f;
    font-style: italic;
    background-color: transparent;
+}
+#unit1 #subtitle{
+   color: #1c1c1e;
 }
 .units {
    padding: 30px;
