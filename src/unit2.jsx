@@ -228,10 +228,18 @@ import { useParams } from "react-router-dom";const Unit2 = () => {
                </li>
             </ul>
          </div>
-         <h1 id="subtitle">SAQ</h1>
-         <ol>
-            <li>ljf</li>
-         </ol>
+         <div className="units">
+            <h1 className="title">Key Questions</h1>
+            <ol>
+               <li>How does ICT influence daily life and global industries?</li>
+               <li>
+                  What technological advancements have shaped the current
+                  digital world?
+               </li>
+
+               <li>How can ICT be used responsibly and ethically?</li>
+            </ol>
+         </div>
       </div>
    );
 };
