@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-const unit9 = () => {
+const Unit9 = () => {
   const { id } = useParams();
 
   return (
@@ -11,4 +11,4 @@ const unit9 = () => {
   );
 };
 
-export default unit9;
+export default Unit9;
