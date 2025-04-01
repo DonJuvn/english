@@ -1,4 +1,5 @@
-import { useParams } from "react-router-dom";const Unit2 = () => {
+import { useParams } from "react-router-dom";
+const Unit2 = () => {
    // const { id } = useParams();
 
    return (
@@ -239,6 +240,20 @@ import { useParams } from "react-router-dom";const Unit2 = () => {
 
                <li>How can ICT be used responsibly and ethically?</li>
             </ol>
+         </div>
+         <div className="units">
+            <h1 className="title">Tips</h1>
+            <ul>
+               <li>Keep up with emerging technologies such as AI and IoT.</li>
+               <li>
+                  Learn about cybersecurity measures to protect personal data.
+               </li>
+
+               <li>
+                  Understand legal frameworks that regulate digital
+                  interactions.
+               </li>
+            </ul>
          </div>
       </div>
    );
