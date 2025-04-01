@@ -1,25 +1,28 @@
-import { useParams } from "react-router-dom";
-const Unit4 = () => {
+import { useParams } from "react-router-dom";const Unit4 = () => {
    // const { id } = useParams();
 
    return (
       <div id="unit1">
          <div className="units">
-            <h1 class="title">Unit 2: Computer Systems and Hardware</h1>
+            <h1 class="title">Unit 3: Storage</h1>
             {/* <p>Displaying content for unit ID: {id}</p> */}
             <p id="subtitle">
                When you have finished this module, you will be able to:
             </p>
             <ul>
+               <li>identify different data storage media</li>
                <li>
-                  Understand the role of ICT in everyday life and various
-                  industries.
+                  identify the devices that are necessary to write and read data
+                  to and from the media
                </li>
                <li>
-                  Explain the evolution of computing technologies and their
-                  impact.
+                  describe the uses for the different types of data storage
+                  media and compare their advantages and disadvantages
                </li>
-               <li>Identify ethical and legal concerns related to ICT.</li>
+               <li>
+                  compare the advantages and disadvantages of optical, magnetic
+                  and solid-state storage devices.
+               </li>
             </ul>
          </div>
          <div className="units">
@@ -46,228 +49,138 @@ const Unit4 = () => {
             <div className="image" id="smartphone-img">
                <img
                   id="smartphone"
-                  src={`${process.env.PUBLIC_URL}/oldcomputer.jpg`}
+                  src={`${process.env.PUBLIC_URL}/storage.jpg`}
                   alt="Smartphone"
                />
                <p id="desc">
-                  Figure 1.1 The Colossus machine at Bletchley Park, UK, was one
-                  of the first electronic computers. It was invented in the
-                  1940s. Because valves (large electronic components) were used,
-                  Colossus was huge, filling the room.
+                  Figure 3.1 The Storage server machine at imgIX, UK, is one of
+                  the highest production electronic storage.
                </p>
             </div>
          </div>
          <div className="units">
-            <h1 className="title">2.1 Computer Hardware Components </h1>
+            <h1 className="title"> 3.1 Storage devices and media</h1>
             <p>
-               Every computer consists of essential hardware elements that work
-               together: Input devices, such as keyboards, mice, touchscreens,
-               and microphones, allow users to interact with the system.
-               Processing units, like the CPU (Central Processing Unit) and GPU
-               (Graphics Processing Unit), handle instructions and calculations.
-               Output devices, including monitors, printers, and speakers,
-               display or present processed data. Storage devices, like HDDs
-               (Hard Disk Drives), SSDs (Solid-State Drives), and external
-               storage solutions, keep data safe and accessible. 2.2 Internal
-               vs. External Storage Storage plays a vital role in system
-               performance: Internal storage refers to built-in components such
-               as RAM and SSDs, affecting a computer’s speed and multitasking
-               capabilities. External storage includes removable drives, USB
-               flash drives, and cloud storage, providing additional space for
-               backups and portability. 2.3 Performance Factors of a Computer
-               Have you ever wondered why some computers run faster than others?
-               Several factors influence performance: Processor speed (measured
-               in GHz) and the number of cores determine how quickly a computer
-               can execute tasks. RAM capacity affects the ability to multitask
-               without slowdowns. Storage type plays a role, as SSDs offer
-               significantly faster data retrieval than traditional HDDs.
-               Graphics processing is essential for gaming, video editing, and
-               high-performance applications.
+               Storage is a very important component in a computer system.
+               Computers store data in a digital format so the storage media has
+               to be able to store digital data. Storage devices use storage
+               media that hold data whether the computer is on or off and are,
+               therefore, non-volatile. The storage medium holds the data and
+               the storage device is the machine that lets you store the data
+               onto the medium, and then reads data from it. For instance, a CD
+               RW (Compact Disk Read/Write) disk is the medium because that is
+               the part that has the data on it; the CD RW drive (the device
+               that writes the data to the disk, or reads the data from the
+               disk) is the storage device. There are three main types of
+               storage media (magnetic, optical and solid-state) and each type
+               stores the data in a different way.{" "}
+            </p>
+
+            <h2 className="title">Magnetic storage media and devices</h2>
+            <p>
+               Magnetic storage media hold data magnetically and include hard
+               disk drives and magnetic tape. The surface of the media is made
+               of magnetic material and data is stored digitally in the form of
+               tiny magnetised regions, or dots. Data is written to magnetic
+               storage media by changing the local magnetic polarity to
+               represent either a 0 or a 1 – these are ‘bits’. A magnetic device
+               can then read the magnetic state of the disk, extracting the 1s
+               and 0 s, to retrieve the data from the disk.
             </p>
          </div>
          <div className="units">
-            <h2 className="title">Main Types of Hardware</h2>
+            <h1 className="title">Optical storage media and devices</h1>
+            <p>
+               Optical storage media and devices use light from lasers to read
+               and write data.
+            </p>
             <ul>
                <li>
-                  <strong>Input Devices:</strong> Allow users to enter data into
-                  a computer system, such as keyboards, mice, and microphones.
+                  Optical media include compact disks (CDs), digital versatile
+                  disks (DVDs) and Blu-ray disks.
                </li>
                <li>
-                  <strong>Output Devices:</strong> Display or produce results
-                  from processed data, including monitors, printers, and
-                  speakers.
+                  They can store different amounts of data – CDs can store
+                  700MB, DVDs, 4.7GB and Blu-ray disks, 128GB.
                </li>
                <li>
-                  <strong>Processing Unit:</strong> The CPU executes
-                  instructions and manages tasks within a computer system.
+                  ROM stands for ‘read-only memory’; these cannot be written to,
+                  only read from (CD ROM and DVD ROM).
                </li>
                <li>
-                  <strong>Memory:</strong> Includes RAM for temporary storage
-                  and ROM for essential system instructions.
+                  R stands for ‘recordable’; these can be written to just once
+                  and then can only be read from (CD-R and DVD-R).
                </li>
                <li>
-                  <strong>Storage Devices:</strong> HDDs offer large-capacity
-                  storage at slower speeds, while SSDs provide faster
-                  performance using flash memory.
-               </li>
-               <li>
-                  <strong>Motherboard:</strong> The main circuit board that
-                  connects all components and enables communication between
-                  them.
-               </li>
-               <li>
-                  <strong>Power Supply Unit (PSU):</strong> Converts electricity
-                  into usable power for internal components.
-               </li>
-               <li>
-                  <strong>Graphics Processing Unit (GPU):</strong> Handles
-                  rendering and visual computations for gaming, video editing,
-                  and other graphical tasks.
+                  RW stands for ‘re-writable’; these can be written to multiple
+                  times (CD-RW and DVD-RW).
                </li>
             </ul>
+            <p>
+               An optical disk has a single spiral track running from the inside
+               to the outside. The spiral track is over 5 km long. When CDs and
+               DVDs are produced, digital data is stored along the track by
+               etching pits onto the surface of the disk with a laser in the
+               optical storage device. The disk between the pits is called a
+               land (see Figure 3.5). When the light from a laser hits the
+               lands, it is reflected back to a detector. The light is scattered
+               away by the pits and no light is detected. These two events
+               represent the digits ‘0’ and ‘1’. Both CD drives and DVD drives
+               use a laser to read and to write the data, but a DVD drive uses a
+               more precise laser. Because of this, the data on DVD media can be
+               closer together and therefore more data can be squeezed onto the
+               surface.
+            </p>
          </div>
 
          <div className="units">
-            <h2 className="title">Main Types of Software</h2>
-            <ul>
-               <li>
-                  <strong>System Software:</strong> Manages hardware resources
-                  and system functionality.
-                  <ul>
-                     <li>
-                        <strong>Operating Systems:</strong> Windows, macOS,
-                        Linux.
-                     </li>
-                     <li>
-                        <strong>Utility Programs:</strong> Antivirus software,
-                        disk cleanup tools.
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <strong>Application Software:</strong> Designed for user
-                  tasks.
-                  <ul>
-                     <li>
-                        <strong>Productivity Tools:</strong> Word processors,
-                        spreadsheets.
-                     </li>
-                     <li>
-                        <strong>Multimedia Programs:</strong> Image and video
-                        editing software.
-                     </li>
-                     <li>
-                        <strong>Web Browsers:</strong> Chrome, Firefox, Safari.
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <strong>Programming Software:</strong> Provides tools for
-                  developing and writing code.
-                  <ul>
-                     <li>
-                        <strong>Compilers and Interpreters:</strong> Convert
-                        programming languages into machine-readable
-                        instructions.
-                     </li>
-                     <li>
-                        <strong>
-                           IDEs (Integrated Development Environments):
-                        </strong>{" "}
-                        Provide a workspace for coding, debugging, and testing
-                        applications.
-                     </li>
-                  </ul>
-               </li>
-            </ul>
-            <ul>
-               <li>Web page editors are used to create web pages.</li>
-               <li>
-                  Audio production and editing programs are a common way of
-                  producing high-quality music at owl cost.
-               </li>
-               <li>
-                  In contrast to general-purpose applications, specialist,
-                  custom-made software can only be used in one main component of
-                  a general-purpose computer OS .{" "}
-               </li>
-               <li>
-                  A computer is a device, or a group of devices, designed to do
-                  something, such as process information or control a particular
-                  situation.{" "}
-               </li>
-               <li>
-                  Examples include applications for payroll, accounts, stock
-                  control, route planning or a system. The hardware of most
-                  computers can be divided into several types of device
-               </li>
-            </ul>
-         </div>
-         <div className="units">
-            <h1 className="title">Remote controls</h1>
+            <h1 className="title">Solid-state storage media and devices</h1>
             <p>
-               A remote control is a small, handheld device that can be used to
-               operate equipment such as a TV or stereo. It has a number of
-               buttons. When a button is pressed, the remote control sends an
-               infrared signal to the equipment. Each signal contains a code;
-               there are enough different codes to allow all the buttons to have
-               their own code so that the equipment knows what to do. Remote
-               controls are used to control home entertainment systems,
-               satellite boxes, lighting and shutters, for example. Their main
-               advantage is convenience; for example, you do not need to stand
-               up to change the TV channel. A disadvantage is that the signal
-               can interfere with other equipment and can be blocked by objects
-               between the remote control and the equipment it controls.
-            </p>
-         </div>
-         <div className="units">
-            <h1 className="title">Touch screens</h1>
-            <p>
-               A touch screen can be found on personal computers, laptops,
-               tablets and smartphones. It is a display screen that is both an
-               input and an output device. A touch screen can determine where on
-               the screen the user has touched and sends that information to the
-               processor. You may have noticed that sometimes you can use a
-               touch screen with your gloves on and sometimes you can’t. That’s
-               because there are two types of touch screens: <br /> • Resistive,
-               which means it is sensitive to pressure from your finger or other
-               object pressed onto the screen. The point of contact is detected
-               because two metallic layers touch at that certain point resulting
-               in a change in voltage. <br /> • Capacitive, which means that the
-               screen is sensitive to static electricity on an exposed finger.
-               This is detected by sensors placed at the four corners of the
-               screen allowing it to detect the touch point. Touch screens are
-               common in information systems in places like train stations or
-               self-service checkouts at a supermarkets.
+               Solid-state storage media use flash memory, which makes them much
+               faster than traditional fixed hard disks. Flash memory consists
+               of non-volatile memory chips containing transistors called
+               floating gate transistors that keep their charge even when the
+               power is switched off. (Normal transistors lose their state when
+               the power is turned off.) At first, all transistors are charged
+               (set to 1). But when a save operation begins, current is blocked
+               to some transistors, switching them to 0. This type of storage is
+               called solid-state because there are no moving parts. Devices
+               using solid-state storage media include solidstate drives, memory
+               sticks and pen drives, and flash memory cards.
             </p>
          </div>
          <div className="units">
             <h1 className="title">Key Questions</h1>
             <ol>
                <li>
-                  How do different hardware components contribute to a
-                  computer’s performance?
+                  There are three main types of storage device.
+                  <li>
+                     a State what type of storage medium is used by memory
+                     sticks and memory cards.
+                  </li>
+                  <li>b Name two devices that store data magnetically.</li>
+                  <li>c List three devices which store data using lasers</li>
                </li>
-               <li>What are the advantages of SSDs over HDDs?</li>
+               <li>Why are storage devices necessary?</li>
 
                <li>
-                  How do input and output devices enhance user interaction with
-                  computers?
+                  What is the difference between a storage medium and a storage
+                  device? Give examples.
                </li>
             </ol>
          </div>
          <div className="units">
             <h1 className="title">Tips</h1>
             <ol>
-               <li>Learn about the latest computer hardware advancements.</li>
+               <li>Learn about the latest computer storage advancements.</li>
                <li>
                   Compare performance specifications before purchasing a new
                   device.
                </li>
 
                <li>
-                  Regularly update and maintain hardware components for optimal
-                  efficiency.
+                  Get aqcuianted with SSD and HDD drivers. Which is better in
+                  what situation?
                </li>
             </ol>
          </div>
